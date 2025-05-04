@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = "pretty",
-        features = "src/test/resources/features/Autenticacion.feature",
+        features = "src/test/resources/features/RegistroUsuario.feature",
         glue = {"com.apptory.cinemark.stepdefinitions"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class AutenticacionRunner {
+public class RegistroUsuarioRunner {
 }
