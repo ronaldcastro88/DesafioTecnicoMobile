@@ -1,6 +1,6 @@
 package com.apptory.cinemark.exceptions;
 
-public class ErrorDeAutenticacion extends AssertionError {
+public class ErrorDeRegistro extends AssertionError {
 
-    public static final String INICIO_DE_SESION_FALLIDO = "El usuario no pudo iniciar sesión de forma exitosa";
+    public static final String VALIDACION_USUARIO_REGISTRADO_FALLIDA = "El usuario registrado no se está validando, permitiendo ingresar o presentando un mensaje diferente";
 }
