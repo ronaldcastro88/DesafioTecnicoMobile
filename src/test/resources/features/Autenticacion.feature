@@ -1,7 +1,7 @@
 # language: es
 Característica: Como usuario de la app de Cinemark deseo autenticarme para usar el portal privado
 
-  @AutenticacionExitosaCine
+  @AutenticacionExitosaCine @Regresion
   Escenario: Autenticación exitosa
     Dado que Ronald quiere hacer uso del portal privado
     Cuando ingresa correctamente sus credenciales

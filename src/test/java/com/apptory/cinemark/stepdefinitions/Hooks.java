@@ -74,11 +74,4 @@ public class Hooks {
             Logger.getAnonymousLogger().log(Level.WARNING, () -> "Falló al inicializar el driver: " + e.getMessage());
         }
     }
-
-
-    public static class DriverInitializationException extends Exception {
-        public DriverInitializationException(String message, Throwable cause) {
-            super(message, cause);
-        }
-    }
 }
